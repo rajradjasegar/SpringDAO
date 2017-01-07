@@ -25,7 +25,7 @@ public class BusinessTest
 	@Test
 	public void testGetByID()
 	{
-		Assert.assertEquals("GUINESS", business.getByID(1).getLastName());
+		Assert.assertEquals("GUINESS", business.getActorByID(1).getLastName());
 	}
 
 }

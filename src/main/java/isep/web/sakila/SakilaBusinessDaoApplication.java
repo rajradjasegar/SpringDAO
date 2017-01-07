@@ -30,7 +30,7 @@ public class SakilaBusinessDaoApplication
 				System.out.println(actor);
 			}
 
-			Actor guiness = business.getByID(1);
+			Actor guiness = business.getActorByID(1);
 			System.out.printf("Who is ID 1? %s %s %n", guiness.getLastName(), guiness.getFirstName());
 
 		} catch (Exception ex)
