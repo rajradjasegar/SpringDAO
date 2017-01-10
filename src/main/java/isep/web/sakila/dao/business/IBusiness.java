@@ -2,6 +2,8 @@ package isep.web.sakila.dao.business;
 
 import java.util.List;
 
+import com.google.common.collect.Lists;
+
 import isep.web.sakila.jpa.entities.Actor;
 import isep.web.sakila.jpa.entities.Film;
 import isep.web.sakila.jpa.entities.Customer;
@@ -37,11 +39,10 @@ public interface IBusiness
 	public List<City> getAllCities();
 	public City getCityByID(int cityId);
 
-	public List<Language> getAllLanguage();
+	public List<Language> getAllLanguages();
 	public Language getLanguageByID(int languageId);
 
-	public List<Category> getAllCategory();
+	public List<Category> getAllCategories();
 	public Category getCategoryByID(int categoryId);
-
-
+	
 }
