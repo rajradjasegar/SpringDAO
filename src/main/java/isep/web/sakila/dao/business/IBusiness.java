@@ -6,6 +6,11 @@ import isep.web.sakila.jpa.entities.Actor;
 import isep.web.sakila.jpa.entities.Film;
 import isep.web.sakila.jpa.entities.Customer;
 
+import isep.web.sakila.jpa.entities.Country;
+import isep.web.sakila.jpa.entities.City;
+import isep.web.sakila.jpa.entities.Category;
+import isep.web.sakila.jpa.entities.Language;
+
 public interface IBusiness
 {
 	/*
@@ -25,6 +30,18 @@ public interface IBusiness
 	 */
 	public List<Customer> getAllCustomers();
 	public Customer getCustomerByID(int customerId);
+
+	public List<Country> getAllCountries();
+	public Country getCountryByID(int countryId);
+
+	public List<City> getAllCities();
+	public City getCityByID(int cityId);
+
+	public List<Language> getAllLanguage();
+	public Language getLanguageByID(int languageId);
+
+	public List<Category> getAllCategory();
+	public Category getCategoryByID(int categoryId);
 
 
 }
