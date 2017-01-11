@@ -14,6 +14,8 @@ import isep.web.sakila.dao.repositories.CountryRepository;
 import isep.web.sakila.dao.repositories.CityRepository;
 import isep.web.sakila.dao.repositories.CategoryRepository;
 import isep.web.sakila.dao.repositories.LanguageRepository;
+import isep.web.sakila.dao.repositories.StoreRepository;
+import isep.web.sakila.dao.repositories.StaffRepository;
 import isep.web.sakila.jpa.entities.Actor;
 import isep.web.sakila.jpa.entities.Film;
 import isep.web.sakila.jpa.entities.Customer;
@@ -21,6 +23,8 @@ import isep.web.sakila.jpa.entities.Country;
 import isep.web.sakila.jpa.entities.City;
 import isep.web.sakila.jpa.entities.Category;
 import isep.web.sakila.jpa.entities.Language;
+import isep.web.sakila.jpa.entities.Store;
+import isep.web.sakila.jpa.entities.Staff;
 @Service("business")
 public class Business implements IBusiness
 {
@@ -32,6 +36,8 @@ public class Business implements IBusiness
 	private CityRepository cityRepository;
 	private CategoryRepository categoryRepository;
 	private LanguageRepository languageRepository;
+	private StoreRepository storeRepository;
+	private StaffRepository staffRepository;
 
 
 	@Override
