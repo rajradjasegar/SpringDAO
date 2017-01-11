@@ -18,7 +18,7 @@ public class Staff implements Serializable {
 
 	@Id
 	@Column(name="staff_id", unique=true, nullable=false)
-	private byte staffId;
+	private int staffId;
 
 	@Column(nullable=false)
 	private byte active;

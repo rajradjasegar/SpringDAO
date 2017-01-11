@@ -18,7 +18,7 @@ public class Category implements Serializable {
 
 	@Id
 	@Column(name="category_id", unique=true, nullable=false)
-	private byte categoryId;
+	private int categoryId;
 
 	@Column(name="last_update", nullable=false)
 	private Timestamp lastUpdate;

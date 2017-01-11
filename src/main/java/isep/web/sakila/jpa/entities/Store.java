@@ -18,7 +18,7 @@ public class Store implements Serializable {
 
 	@Id
 	@Column(name="store_id", unique=true, nullable=false)
-	private byte storeId;
+	private int storeId;
 
 	@Column(name="last_update", nullable=false)
 	private Timestamp lastUpdate;
