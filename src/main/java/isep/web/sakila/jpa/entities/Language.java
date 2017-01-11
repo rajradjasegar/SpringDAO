@@ -18,7 +18,7 @@ public class Language implements Serializable {
 
 	@Id
 	@Column(name="language_id", unique=true, nullable=false)
-	private int languageId;
+	private byte languageId;
 
 	@Column(name="last_update", nullable=false)
 	private Timestamp lastUpdate;

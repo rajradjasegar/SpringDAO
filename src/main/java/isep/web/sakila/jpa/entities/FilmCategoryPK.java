@@ -16,7 +16,7 @@ public class FilmCategoryPK implements Serializable {
 	private int filmId;
 
 	@Column(name="category_id", insertable=false, updatable=false, unique=true, nullable=false)
-	private int categoryId;
+	private byte categoryId;
 
 	public FilmCategoryPK() {
 	}
