@@ -40,9 +40,9 @@ public interface IBusiness
 	public City getCityByID(int cityId);
 
 	public List<Language> getAllLanguages();
-	public Language getLanguageByID(int languageId);
+	public Language getLanguageByID(byte languageId);
 
 	public List<Category> getAllCategories();
-	public Category getCategoryByID(int categoryId);
+	public Category getCategoryByID(byte categoryId);
 	
 }

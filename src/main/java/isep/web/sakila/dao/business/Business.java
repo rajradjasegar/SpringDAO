@@ -46,7 +46,7 @@ public class Business implements IBusiness
 		return Lists.newArrayList(categoryRepository.findAll());
 	}
 
-	public Category getCategoryByID(int categoryId)
+	public Category getCategoryByID(byte categoryId)
 	{
 		return categoryRepository.findOne(categoryId);
 	}
@@ -57,7 +57,7 @@ public class Business implements IBusiness
 		}
 
 	@Override
-	public Language getLanguageByID(int languageId) {
+	public Language getLanguageByID(byte languageId) {
 		return languageRepository.findOne(languageId);
 	}
 	@Override
